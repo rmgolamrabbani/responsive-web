@@ -107,7 +107,7 @@ main > section {
 
 /* responsive media for header */
 
-@media screen and (max-width) {
+@media screen and (max-width:576px) {
     .navbar, .nav-link {
         flex-direction: column;
     }
@@ -175,7 +175,80 @@ main{
 
 .featuers-love-enjoy {
     display: flex;
+} 
+
+.love-enjoy-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 0.7rem;
+}
+
+.love-card{
+    padding: 15px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 15px;
+
+}
+
+.love-enjoy-cardbox {
+    margin-right: 40px;
+}
+/* .featuers-love-enjoy{
+    width: 1350px;
+    height:960px ;
+} */
+
+.card-title{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+#experience-badge {
+    padding: 40px 36px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -70px ;
+    margin-top: -90px;
+}
+
+.experience-year{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.love-enjoy-img{
+    width: 100%;
 }
 
 
+/* for responsive love and enjoy section  */
 
+ @media screen and (max-width:576px) {
+
+   .featuers-love-enjoy{
+    flex-direction: column;
+   }
+   #experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
+   }
+ }
+
+
+  @media screen and (min-width:576px) and (max-width:992px) {
+     .featuers-love-enjoy{
+    flex-direction: column;
+   }
+    #experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
+   }
+
+   .love-enjoy-img{
+    width: 100%;
+   padding-left: 85px;
+               
+   }
+
+  }
