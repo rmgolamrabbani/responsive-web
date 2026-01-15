@@ -220,15 +220,18 @@ main{
     font-size: 2.5rem;
     font-weight: 600;
 }
-.love-enjoy-img{
+/* .love-enjoy-img{
     width: 100%;
-}
+} */
 
 
 /* for responsive love and enjoy section  */
 
  @media screen and (max-width:576px) {
-
+    
+    .feacture-ing {
+        width: 100%;
+    }
    .featuers-love-enjoy{
     flex-direction: column;
    }
